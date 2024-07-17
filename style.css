@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.login-box{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    
+}
+.login-c1{
+    width: 400px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.login-c1-1{
+    width: 100%;
+    position: relative;
+    z-index:1;
+}
+
+.login-c1-1 h1{
+
+    text-align: center;
+    color: white;
+
+}
+
+.login-c1-1 p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.login-c1-1-bttn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login-c1-1-bttn button{
+    width: 200px;
+    height: 40px;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-c1-1-bttn button:hover {
+    background-color: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+.login-c1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    
+}
+/* login content 2 */
+
+.login-c2{
+    width: calc(100% - 400px);
+    height: 100%;
+    /* background-color:brown; */
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    
+} 
+
+.login-c2-2{
+    width: 100%;
+    /* background-color: blue; */
+    
+}
+.login-c2-2 h1{
+    text-align: center;
+    color:rgb(12,38,100);
+}
+
+.login-c2-social{
+    width: 100%;
+    display: flex;justify-content: center;
+    margin-top: 20px;
+}
+
+.login-c2-2 ul li{
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: bold;
+}
+.login-c2-2 ul li a{
+    text-decoration: none;
+    color: rgb(12,38,100);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid rgb(200, 200, 200);
+}
+.login-c2-2 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #707070;
+}
+
+.login-input{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-input input{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color:rgb(230,230,230);
+    border:none ;
+    border-radius: 5px;
+}
+.login-bttn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login-bttn button{
+    width: 200px;
+    height:45px;
+    border-radius:30px ;
+    border: none;
+    color: white;
+    background-color:rgb(12,38,100);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    
+}
+.login-bttn button:hover {
+    background-color: rgb(10, 31, 82); /* Slightly darker blue on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
